@@ -29,14 +29,15 @@ const Alert = ({ preview }: Props) => {
             </>
           ) : (
             <>
-              The source code for this blog is{' '}
+              Help improve this website by  {' '}
               <a
-                href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
-                className="underline hover:text-blue-600 duration-200 transition-colors"
+                href={`https://github.com/faizywaizy`}
+                target = '_blank'
+                className="underline font-bold hover:text-blue-600 duration-200 transition-colors"
               >
-                available on GitHub
+                sending feedback!
               </a>
-              .
+                
             </>
           )}
         </div>
